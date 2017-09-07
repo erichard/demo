@@ -196,4 +196,11 @@ class Review
     {
         $this->publicationDate = $publicationDate;
     }
+
+    public function getCustomeBook()
+    {
+        return [
+            'book' => $this->book,
+        ];
+    }
 }
